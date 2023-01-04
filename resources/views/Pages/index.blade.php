@@ -1,1 +1,1 @@
-@extends("Layout.frontend")
+@extends("pages.home")

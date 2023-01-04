@@ -1,6 +1,22 @@
+@extends("Layout.frontend")
+
+<nav class="navbar navbar-light navbar-expand-md py-2 shadow-sm ">
+    <div class="container"><img src="img.Navbar logo.png" width="51" height="51"><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-family: 'Noto Sans Sinhala', sans-serif;font-weight: bold;">&nbsp;<span style="color:#0071bc; font-weight: bolder; font-size: 30px;">සණස</span> ගොඩිගමුව ශාඛාව</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-2">
+            <ul class="navbar-nav ms-auto font-weight-bold">
+                <li class="nav-item"><a class="nav-link " href="/">මුල් පිටුව</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('history') }}">ඉතිහාසය</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('Account') }}">ගිණුම්</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('Projects') }}">ප්‍රජා සේවාවන්&nbsp;</a></li>
+            <!-- </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="background: linear-gradient(#0072bc, #013b60), var(--bs-blue);border-color: var(--bs-border-color-translucent);font-size: 20px;border-radius: 12px;border-top-left-radius: 57;">පිවිසීම</a> -->
+        </div>
+    </div>
+</nav>
+
 <section>
     <div class="herosection text-center">
-<h3 style="font-family: 'Bebas Neue', cursive;font-family: 'Kanit', sans-serif;font-weight: bold; " class="p-2 my-1">ඉතිහාසය හා වර්තමානය</h3>
+        <br>
+<h3 style=font-weight: bold; " class="p-2 my-1">ඉතිහාසය හා වර්තමානය</h3>
     </div>
     <hr style="height:2px;background-color:#0071bc" class="p-1">
 </section>
@@ -51,7 +67,8 @@
 
     </div>
     <hr>
-    <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">ආරම්භක නිළධාරි මණ්ඩලය.</h4>
+    <h4 class="text-center" style="sans-serif;">ආරම්භක නිළධාරි මණ්ඩලය.</h4>
+    <br>
     <div class="row">
         <div class="col-md-4">
             <div class=" cards">
@@ -107,7 +124,8 @@
     </div>
 
     <hr>
-    <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">බැංකු සේවා ආරම්භ කිරීම.</h4>
+    <h4 class="text-center" style="sans-serif;">බැංකු සේවා ආරම්භ කිරීම.</h4>
+    <br>
     <div class="row">
         <div class="col-md-4">
             <div class=" cards">
@@ -146,7 +164,8 @@
 
     </div>
     <hr>
-    <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">1990 වර්ෂයේ ආරම්භක අධ්‍යක්ෂක මණ්ඩලය.</h4>
+    <h4 class="text-center" style="sans-serif;">1990 වර්ෂයේ ආරම්භක අධ්‍යක්ෂක මණ්ඩලය.</h4>
+    <br>
     <div class="row">
         <div class="col-md-4">
             <div class=" cards">
@@ -214,3 +233,6 @@
         </div>
 
     </section>
+
+
+@extends('Components.footer')

@@ -21,15 +21,6 @@
     <link rel="stylesheet" href="css/history.css">
 </head>
 <body>
-
-    @extends("Components.navbar")
-
-            @extends("Pages.home")
-
-    @extends("Components.footer")
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="js/Simple-Slider.js"></script>
