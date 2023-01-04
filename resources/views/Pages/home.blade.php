@@ -93,7 +93,7 @@
             <div class="col-md-6 col-xl-4">
                 <div>
                     <form class="p-3 p-xl-4" method="post" style="font-family: 'Noto Sans Sinhala', sans-serif;">
-                        <div class="mb-3"><label class="form-label" for="name"><span><b>ලිපිනය</b></span>&nbsp; &nbsp;: අංක 68, පිළියන්දල පාර,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ගොඩිගමුව,මහරගම&nbsp;</label></div>
+                        <div class="mb-3"><label class="form-label" for="name"><span><b>ලිපිනය</b></span>&nbsp; &nbsp;: අංක 68, පිළියන්දල පාර,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; ගොඩිගමුව,මහරගම&nbsp;</label></div>
                         <div class="mb-3"><label class="form-label" for="email"><span><b>දුරකථන</b></span>&nbsp; : 0112 850 853</label></div>
                         <div class="mb-3"><label class="form-label" for="message"><span><b>ෆැක්ස්</b></span>&nbsp; &nbsp; : 0112 850 853</label><label class="form-label" for="message"><span><b>ඊමේල්</b></span>&nbsp; &nbsp; : godigamuwasanasa@yahoo</label><label class="form-label" for="message"><span><b>FB</b></span>&nbsp; &nbsp; &nbsp; &nbsp; : godigamuwa</label></div>
                         <div class="mb-3"></div>

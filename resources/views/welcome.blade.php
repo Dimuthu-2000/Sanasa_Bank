@@ -1,1 +1,1 @@
-@extends('pages.index')
+@extends("pages.index")
